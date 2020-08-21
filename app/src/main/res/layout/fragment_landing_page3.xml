@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GameView.LandingPage3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/ivLP3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/ic_landing_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvLP3"
+        android:layout_width="216dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/comic"
+        android:text="Persiapkan dirimu !"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/ivLP3"
+        app:layout_constraintStart_toStartOf="@id/ivLP3"
+        app:layout_constraintTop_toBottomOf="@id/ivLP3" />
+
+    <ImageView
+        android:id="@+id/buletKiri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buletTengah"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/ic_baseline_brightness_1_24"
+        android:tint="#BBDEFB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/buletKanan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buletTengah"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_baseline_brightness_1_24"
+        android:tint="#1976D2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/buletTengah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_baseline_brightness_1_24"
+        android:tint="#BBDEFB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/nextBTN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_arrow_right_24"
+        android:tint="#1976D2"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="32dp"
+    tools:context=".UserLogin.HalamanLogin">
+
+    <EditText
+        android:id="@+id/etUname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="Username"
+        android:textColorHint="#857E7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#857E7E"
+        app:layout_constraintEnd_toEndOf="@id/etUname"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@id/etUname"
+        app:layout_constraintTop_toBottomOf="@id/etUname" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"
+        app:layout_constraintTop_toBottomOf="@id/etPass"
+        app:layout_constraintStart_toStartOf="@id/etPass"
+        app:layout_constraintEnd_toStartOf="@id/btnReset"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnReset"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:fontFamily="@font/comic"
+        app:layout_constraintTop_toBottomOf="@id/etPass"
+        app:layout_constraintStart_toEndOf="@id/btnLogin"
+        app:layout_constraintEnd_toEndOf="@id/etPass"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

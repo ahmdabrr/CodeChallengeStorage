@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="header1" type="id" />
+    <item name="header2" type="id" />
+    <item name="tvKertas" type="id" />
+    <item name="header3" type="id" />
+    <item name="tvGunting" type="id" />
+    <item name="tvBatu" type="id" />
+    <item name="tvPemain" type="id" />
+    <item name="ivBatuPemain" type="id" />
+    <item name="ivKertasPemain" type="id" />
+    <item name="tvComputer" type="id" />
+    <item name="ivBatuCom" type="id" />
+    <item name="ivKertasCom" type="id" />
+    <item name="ivGuntingCom" type="id" />
+    <item name="ivGuntingPemain" type="id" />
+</resources>
